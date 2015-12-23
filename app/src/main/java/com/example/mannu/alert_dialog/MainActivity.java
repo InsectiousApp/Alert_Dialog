@@ -32,8 +32,11 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
+
+
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
+        alertDialog.setCanceledOnTouchOutside(false);
     }
 
 }
